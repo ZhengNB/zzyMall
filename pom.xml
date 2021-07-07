@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.ruby.zzymall</groupId>
-	<artifactId>zzymall</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>zzymall</name>
-	<description>聚合</description>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ruby.zzymall</groupId>
+    <artifactId>zzymall</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>zzymall</name>
+    <description>聚合</description>
 
-	<packaging>pom</packaging>
+    <packaging>pom</packaging>
 
-	<modules>
-		<module>zzymall-coupon</module>
-		<module>zzymall-member</module>
-		<module>zzymall-order</module>
-		<module>zzymall-product</module>
-		<module>zzymall-ware</module>
-	</modules>
+    <modules>
+        <module>zzymall-coupon</module>
+        <module>zzymall-member</module>
+        <module>zzymall-order</module>
+        <module>zzymall-product</module>
+        <module>zzymall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>zzymall-common</module>
+    </modules>
 </project>
